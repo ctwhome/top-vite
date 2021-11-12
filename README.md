@@ -3,12 +3,6 @@
 </p>
 
 <p align='center'>
-Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
-</p>
-
-<br>
-
-<p align='center'>
 <a href="https://vitesse.netlify.app/">Live Demo</a>
 </p>
 
@@ -107,13 +101,6 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
 
-###### Official
-
-- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
-- [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3
-- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
-- [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
-
 ###### Community
 
 - [vitesse-addons](https://github.com/JohnCampionJr/vitesse-addons) by [@johncampionjr](https://github.com/johncampionjr) - additional options for integrations, including [Prettier](https://prettier.io) and [Storybook](https://storybook.js.org)
@@ -154,9 +141,21 @@ And, enjoy :)
 
 ## Usage
 
+### Updating from template
+
+Fetch from the \`template\` remote. If you cloned via Github, you will need to add the remote origin.
+
+```shell
+# Add template repository
+git remote add template https://github.com/ctwhome/top-vite
+
+# update repo
+git fetch --all --allow-unrelated-histories
+```
+
 ### Development
 
-Just run and visit http://localhost:3333
+Just run and visit http://localhost:3000
 
 ```bash
 pnpm dev
