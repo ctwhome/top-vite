@@ -2,8 +2,6 @@
 <a href="https://vitesse.netlify.app/">Live Demo</a>
 </p>
 
-<br>
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
@@ -112,6 +110,22 @@ As this template is strongly opinionated, the following provides a curated list 
 
 [Create a repo from this template on GitHub](https://github.com/antfu/vitesse/generate).
 
+### Updating from template
+
+Fetch from the \`template\` remote. If you cloned via Github, you will need to add the remote origin.
+
+```shell
+# Add template repository
+git remote add template https://github.com/ctwhome/top-vite
+
+# Update repo
+git fetch --all 
+
+# Merge the branch you want from the remote template
+git merge template/main --allow-unrelated-histories
+```
+
+
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
@@ -136,18 +150,6 @@ When you use this template, try follow the checklist to update your info properl
 And, enjoy :)
 
 ## Usage
-
-### Updating from template
-
-Fetch from the \`template\` remote. If you cloned via Github, you will need to add the remote origin.
-
-```shell
-# Add template repository
-git remote add template https://github.com/ctwhome/top-vite
-
-# update repo
-git fetch --all --allow-unrelated-histories
-```
 
 ### Development
 
